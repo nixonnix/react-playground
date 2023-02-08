@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+}
+.lib-td {
+    border: 1px solid;
+    padding: 5px;
+}
+.lib-th {
+    border-right: 1px solid #fff;
+    font-weight: bold;
+    color: #fff;
+    background-color: grey;
+    position: sticky;
+    top: 0;
+    text-align: left;
+}
+.lib-th>div{
+    display: inline-block;
+}
+.lib-th>div:last-child{
+    width: 10%;
+    margin: -4px;;
+}
+.lib-th>div:first-child{
+    width: 90%;
+}
+.lib-table thead {
+}
+.lib-table tbody {
+}
+.lib-table tr:nth-child(even) {
+    background: grey;
+}
+.table-wrapper {
+    height: 300px;
+    overflow: auto;
+}
+.rotate-arrow {
+    transform: rotate(180deg);
+    display: inline-block;
+}
